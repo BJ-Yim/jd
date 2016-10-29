@@ -1,0 +1,178 @@
+@charset "UTF-8";
+.bgbanner{
+    position: relative;
+}
+.bgbanner a{
+    height: 604px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/banner.jpg") no-repeat center top;
+}
+.content{
+    position: relative;
+    padding-top: 12px;
+}
+.slider{
+    width: 730px;
+    height: 454px;
+    margin: 0 0 0 220px;
+    float: left;
+    position: relative;
+}
+#bgpic{
+    width: 730px;
+    height: 454px;
+    overflow: hidden;
+}
+#bgpic a{
+    width: 730px;
+    height: 454px;
+    display: none;
+}
+#bgpic .slider_pic {
+    display: block;
+}
+.circle{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+}
+.circle li{
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3e3e3e;
+    text-align: center;
+    line-height: 18px;
+    margin: 0 2px;
+    color: #fff;
+    cursor: pointer;
+}
+.circle li.current{
+    background-color: #b61b1f;
+}
+.arrow-l,
+.arrow-r{
+    width: 28px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    background: rgba(0,0,0,.2);
+    text-align: center;
+    font:500 18px/62px "宋体";
+    color: #fff;
+}
+.arrow-l{
+    position: absolute;
+    left: 0;
+}
+.arrow-r{
+    position: absolute;
+    right: 0;
+}
+.arrow-l:hover,.arrow-r:hover{
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+.news{
+    width: 248px;
+    height: 452px;
+    border: 1px solid #e4e4e4;
+    float: right;
+}
+.jd-news{
+    height: 200px;
+    border-bottom:1px dashed #e4e4e4;
+}
+.jd-news .dt,.life .dt{
+    height: 43px;
+    border-bottom:1px dotted #e8e8e7;
+    line-height: 43px;
+    padding: 0 15px;
+}
+.jd-news .dt h3,.life .dt h3{
+    float: left;
+    font:400 16px/43px "microsoft yahei";
+    color:#666
+}
+.jd-news .dt a{
+    float: right;
+    font:13px/43px "宋体"
+}
+.jd-news ul{
+    padding: 8px 0 0 15px;
+}
+.jd-news li{
+    line-height:28px;
+}
+.jd-news .dd span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.life{
+    overflow: hidden;
+}
+.life .dd{
+    width: 248px;
+    overflow: hidden;
+}
+.life ul{
+    height: 251px;
+    width:252px;
+}
+.life li{
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    float: left;
+    margin: -1px 0 0 -1px;
+    border-top: 1px dotted #e4e4e4;
+}
+.life .song{
+    background: url("../images/song.png") no-repeat right top;
+}
+.life{
+    height: 251px;
+}
+
+.life a{
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 44px;
+    position: relative;
+}
+.life a i{
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/spriteicon.png) no-repeat 0 0;
+}
+.todays{
+    position: relative;
+}
+.night{
+    margin: 10px 0 28px 0;
+}
+.night-l{
+    float: left;
+}
+.night-r{
+    height: 160px;
+    width: 1000px;
+    float: right;
+}
+.night-r ul{
+    width: 500%;
+}
+.night-r li{
+    float: left;
+    margin-right: 1px;
+}
